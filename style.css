@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(221, 221, 221);
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.menu,
+a {
+  background-color: black;
+  color: white;
+  padding: 10px 30px 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.link1 {
+  text-decoration: none;
+  color: white;
+}
+
+#aviao {
+  width: 12%;
+  height: 7vh;
+  padding: 2px 5px 0 0;
+}
+
+#imagem {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  padding: 40px;
+}
+
+#imagens1,
+#imagens2,
+#imagens3 {
+  width: 25%;
+  border-radius: 10%;
+  -webkit-box-shadow: 10px 10px 17px 7px rgba(0, 0, 0, 0.76);
+  -moz-box-shadow: 10px 10px 17px 7px rgba(0, 0, 0, 0.76);
+  box-shadow: 10px 10px 17px 7px rgba(0, 0, 0, 0.76);
+}
+
+#input {
+  display: grid;
+  padding: 0 70px;
+}
+
+footer {
+  font-size: 0.8em;
+  text-align: center;
+  border-top: 1px solid #333;
+  padding-top: 10px;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  position: relative;
+  width: 100%;
+}
+
+#button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  height: 40px;
+  color: #fff;
+  background-color: #00b176;
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin: 0 70px;
+}
+
+.btn-primary {
+  padding: 20px 70px 0 50px;
+}
+
+.text {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 425px) {
+  .grid {
+    display: block;
+    align-items: center;
+  }
+
+  #input {
+    padding: 0 7px;
+  }
+}
